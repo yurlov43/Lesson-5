@@ -13,7 +13,7 @@ module Validation
       end
       unless errors.empty?
         puts errors
-        raise errors.join("\n") unless errors.empty?
+        raise errors.join("\n")
       end
     end
 
